@@ -117,7 +117,7 @@
                         <a class="nav-link" aria-current="page" href="/The_Continental/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/The_Continental/about.html">About</a>
+                        <a class="nav-link active" href="/The_Continental/about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -142,7 +142,7 @@
                         <a class="nav-link" href="/The_Continental/findbooking.html">Find Booking</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/The_Continental/ourhotels.html">Our Hotels</a>
+                        <a class="nav-link" href="/The_Continental/ourhotels.html">Our Hotels</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -159,6 +159,68 @@
             </div>
         </div>
     </nav>
+
+    <!-- Modals -->
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to eMedic</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Username</label>
+                        <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Type username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Type password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-warning">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Create an account in eMedic</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Username</label>
+                        <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Type username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Type password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Type password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-info">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="main-header">
 
         <h1>
